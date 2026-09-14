@@ -1,0 +1,26 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+data/*.db
+logs/*.log
+
+# Python caches
+.pytest_cache/
+**/__pycache__/
+
+# Local backup / temporary copies
+*.bak
+*.pre-*
+*.before_*
+*.v031
+*.v48
+*.v48-*
+*.v4
+
+# Local research output
+wf20k.txt
+
+# Backup files
+*.bak*
+data/*.backup*
